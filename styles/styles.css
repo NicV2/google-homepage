@@ -1,0 +1,170 @@
+*{ 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+
+}
+
+body{
+	width: 100%;
+
+}
+
+.navigation {
+	display: inline-block;
+	font-size: 13px;
+	padding: 1.5em 1em 0 0;
+	height: 5em;
+	width: 100%;
+	color: #686869;
+}
+
+.navigation a{
+	padding: 1em 2em 0 0;
+	float: right;
+
+}
+
+.navigation a:link{
+	color: #686869;
+}
+
+.navigation a:hover{
+	text-decoration: underline;
+}
+
+.navigation a:visited{
+	color: #686869;
+}
+
+.navigation img{
+	height: 1.7em;
+	width: 1.7em;
+	margin: 0;	
+}
+
+#nav-text {
+	height: 2em;
+	padding: 1.4em 2em 0 0;
+}
+#apps img:hover{
+	opacity: 1;
+}
+
+#apps img{
+	opacity: .7;
+}
+
+#notifications img:hover{
+	opacity: 1;
+}
+
+#notifications img{
+	border-style: #686869;
+	background-color: #686869;
+	border-radius: 100%;
+	opacity: .7;
+}
+
+
+#gmail img{
+	height: 2.5em;
+	width: 2.5em;
+	margin-top: -0.3em;
+}
+
+h1{
+	text-align: center;
+	padding: 7em 0 0 0;
+}
+
+form {
+	text-align: center;
+}
+
+
+
+.search-bar{
+	
+	height: 3em;
+	width: 45em;
+	box-shadow: 0px 1px 2px 0px rgba(222,224,226,1);
+	border-style: solid;
+	border-width: .1em;
+	border-color: #dee0e2;
+	padding: 0 1em 0 1em;
+
+}
+
+input{
+	font-size: 13px;
+}
+
+input:hover{
+	box-shadow: 0px 2px 1.5px 2px rgba(222,224,226,1);
+}
+
+*:focus {
+    outline: none;
+}
+
+.button{
+	text-align: center;
+	padding: 2em 0 0 0;
+}
+
+.button a {
+    padding: 1em 1em;
+    display: inline-block;
+    text-align: center;
+    background-color: #dee0e2;
+    font-size: 13px;
+    font-weight: 800;
+    color: #6b6d6b; 
+    text-decoration: none;     
+}
+
+.button a:hover{
+           color: black;
+           border-style: solid;
+           border-width: 0.1em;
+           padding:0.9em 0.9em;
+           background-color: #dee0e2;
+           border-color:#636870;
+       }
+     
+footer{
+	position: fixed;
+	bottom: 0px;
+	color: #6b6d6b;
+}
+
+footer.wrapper-footer{
+	background: #f2f2f2;
+	height: 3em;
+	width: 100%;
+	overflow: hidden;
+
+	
+}
+
+ul {
+    padding: 0 1.5em;
+}
+
+li.footer-left{
+	float: left;
+	display: inline-block;
+	padding: 1.4em;
+	font-size: 13px;
+
+}
+
+li.footer-right{
+	float: right;
+	display: inline-block;
+	padding: 1.4em;
+	font-size: 13px;
+}
